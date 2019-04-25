@@ -1,0 +1,215 @@
+body{
+  width:1900px;
+  height: 8000px;
+}
+.container{
+  height:700px;
+  width:1200px;
+  background-color: cyan;
+  border: solid 2px red;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+header{
+  display:flex;
+  width:1000px;
+  margin-left: auto;  
+  margin-right:auto;
+  border: solid 2px red;
+}
+
+
+
+.header__logo{
+  height:119px;
+  width:180px;
+  border: solid 2px red;
+  padding-top:25px;
+  margin-left:20px;
+}
+
+.header__menu{
+  height:124px;
+  width:354px;
+  border: solid 2px red;
+  display:flex;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: #4c5a75;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom:20px;
+  padding-left:55px;
+  padding-right:86px;
+}
+
+.header__phones{
+  height:99 px;
+  width:276px;
+  border: solid 2px red;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;  
+  color: #4c5a75;
+}
+.header__phones_first{
+  padding-top:16px;
+  height:20px;
+  width:200px;
+  padding-bottom:10px;
+  padding-right: 10px;
+  display:flex;
+  justify-content:flex-end; 
+  align-items:baseline; 
+}
+
+.header__phones_second{
+  height:20px;
+  width:200px;
+  padding-bottom:10px;
+  display:flex;
+  justify-content:flex-end; 
+  align-items:baseline; 
+  padding-right: 10px;
+}
+
+.header__phones_big{
+  font-family: 'Open Sans';
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header__phones_button{
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: #ee7501;
+}
+.header__phones button{
+  height:45px;
+  width:175px;
+  border: solid 1px #ee7501;
+  border-radius:5px;
+  background-color: rgba(0,0,0,0);
+  padding-bottom:16px;
+}
+.line1{
+  margin-left: auto;  
+  margin-right:auto;
+height:200px;
+  width: 1000px;  
+  display:flex;
+  border: solid 2px red;
+}
+.line1__menu{
+  display:flex;
+  flex-direction: column;
+  height:200px;
+  width: 900px;  
+  border: solid 2px red;
+}
+
+.line1__menu-icons{
+  height:50px;  
+  width: 900px; 
+  display:flex; 
+}
+
+.line1__menu_leftrow{
+  height:180px;  
+  width: 50px; 
+  border: solid 2px red;
+}
+.line1__menu_rightrow{
+  height:180px;  
+  width: 50px; 
+  border: solid 2px red;
+}
+.line1__menu_h{
+  font-family: 'Open Sans';
+  font-size: 42px;
+  font-weight: 600;
+  color:#ee7501;
+  height:60px;  
+  width: 900px;
+  border: solid 2px red;
+}
+
+.line1__menu_p{
+  font-family: 'Open Sans';
+  font-size: 32px;
+  color: #4c5a75;
+  height:60px;  
+  width: 900px;
+  border: solid 2px red;
+}
+
+.line1__menu-icons_staff{
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
+
+.line1__menu-icons_site{
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
+.line2{
+  height:360px;  
+  width: 1100px;
+  border: solid 2px red;
+  margin-left: auto;  
+  margin-right:auto;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+}
+
+.line2__h{
+  height:80px;  
+  width: 450px;
+  border: solid 2px red;
+}
+
+.line2__p{
+  height:80px;  
+  width: 320px;
+  border: solid 2px red;
+}
+
+.line2__button{
+  height:140px;  
+  width: 270px;
+  border: solid 2px red;
+}
+
+.line3{
+  margin-left: auto;  
+  margin-right:auto;
+  height:150px;  
+  width: 1900px;
+  border: solid 2px red;
+  background-image: url(../img/backgroundline3.png);
+  background-color: #4c5a75;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+}
+
+.line3__users{
+  height:104px;  
+  width: 276px;
+  padding-top:70px;
+  padding-bottom:70px;
+}
+
+line3__p{
+  height:60px;  
+  width: 400px;
+}
+
+line3__logos{
+  height:60px;  
+  width: 600px;
+}

@@ -22,6 +22,18 @@ const config = {
         test: /\.pug$/,
         use: ['pug-loader'],
       },
+      {
+        test: /\.sass$/,
+        use: ['style-loader', 'css-loader', 'sass-loader'],
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: ['file-loader'],
+      },
     ],
   },
 };

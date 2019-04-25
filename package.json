@@ -4,7 +4,10 @@
   "description": "landing for odoo",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "build:dev": "webpack --mode=development",
+    "start:dev": "webpack-dev-server --mode=development"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,19 @@
   "bugs": {
     "url": "https://github.com/feteneri/odoo/issues"
   },
-  "homepage": "https://github.com/feteneri/odoo#readme"
+  "homepage": "https://github.com/feteneri/odoo#readme",
+  "dependencies": {
+    "css-loader": "^2.1.1",
+    "hot-module-replacement": "^3.0.3",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "pug": "^2.0.3",
+    "pug-html-loader": "^1.1.5",
+    "pug-loader": "^2.4.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.3.1"
+  }
 }

@@ -1,56 +1,34 @@
-var webpack = require('webpack');
-var path = require('path');
-
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-
-var src = path.join(__dirname, 'src');
-
-var config = {
-  devServer: {
-    hot: true,
-    inline: true,
-  },
-  stats: {
-    assets: false,
-    colors: true,
-    version: false,
-    hash: true,
-    timings: true,
-    chunks: false,
-    chunkModules: false
-  },
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
+const config = {
   entry: {
-    styles: path.join(src, 'styles.js'),
-    index: path.join(src, 'index.pug'),
-    bundle: path.join(src, 'index.js'),
+    app: './src/app.js',
   },
   output: {
-    path: path.resolve(__dirname, 'build'),
-    filename: '[name].js'
+    path: path.resolve(__dirname, 'dist'),
+    filename: '[name].bundle.js',
   },
+  devServer: {
+    port: 3000,
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './src/index.pug',
+    }),
+  ],
   module: {
     rules: [
       {
         test: /\.pug$/,
-        use:  ['html-loader', 'pug-html-loader?pretty&exports=false']
+        use: ['pug-loader'],
       },
-      {
-        test: /\.sass$/,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
-      },
-      {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
-      }
-    ]
+    ],
   },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new HtmlWebpackPlugin({
-      title: 'index.html',
-      template: path.join(src, 'index.pug'),
-    }),
-  ],
 };
-
-module.exports = config;
+module.exports = (env, argv) => {
+  if (argv.mode === 'development') {
+  }
+  if (argv.mode === 'production') {
+  }
+  return config;
+};

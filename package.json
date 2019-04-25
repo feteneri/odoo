@@ -1,0 +1,22 @@
+{
+  "name": "odoo",
+  "version": "1.0.0",
+  "description": "landing for odoo",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feteneri/odoo.git"
+  },
+  "keywords": [
+    "landing"
+  ],
+  "author": "feteneri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feteneri/odoo/issues"
+  },
+  "homepage": "https://github.com/feteneri/odoo#readme"
+}

@@ -1,19 +1,16 @@
 header{
   display:flex;
-  width:1000px;
+  width:900px;
   margin-left: auto;  
   margin-right:auto;
   border: solid 2px red;
 }
-
-
 
 .header__logo{
   height:119px;
   width:180px;
   border: solid 2px red;
   padding-top:25px;
-  margin-left:20px;
 }
 
 .header__menu{
@@ -30,6 +27,7 @@ header{
   padding-bottom:20px;
   padding-left:55px;
   padding-right:86px;
+  text-decoration: underline;
 }
 
 .header__phones{
@@ -41,27 +39,15 @@ header{
   align-items:flex-end;  
   color: #4c5a75;
 }
-.header__phones_first{
-  padding-top:16px;
+.header__phones_item{
   height:20px;
   width:200px;
-  padding-bottom:10px;
-  padding-right: 10px;
+  margin-top:14px;
   display:flex;
-  justify-content:flex-end; 
-  align-items:baseline; 
-}
+  align-items:flex-end;
+  justify-content: flex-end;
 
-.header__phones_second{
-  height:20px;
-  width:200px;
-  padding-bottom:10px;
-  display:flex;
-  justify-content:flex-end; 
-  align-items:baseline; 
-  padding-right: 10px;
 }
-
 .header__phones_big{
   font-family: 'Open Sans';
   font-size: 24px;
@@ -73,11 +59,13 @@ header{
   font-size: 14px;
   color: #ee7501;
 }
+
 .header__phones button{
-  height:45px;
-  width:175px;
+  height:40px;  
+  width:172px;
+  font-size: 14px;
   border: solid 1px #ee7501;
   border-radius:5px;
   background-color: rgba(0,0,0,0);
-  padding-bottom:16px;
+  margin-top:16px;
 }

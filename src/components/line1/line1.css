@@ -1,10 +1,9 @@
-.container{
+.container_1{
   margin-left: auto;  
   margin-right:auto;
   height:200px;
   width: 1000px;
   display: flex;
-  border: solid 2px red;
 }
 .line1{
   margin-left: auto;  
@@ -48,11 +47,6 @@
   display:flex;
   justify-content:space-between;
 }
-
-line1__menu_item_icon button{
-
-}
-
 
 .line1__menu_leftrow{
   height:180px;  
@@ -103,8 +97,4 @@ line1__menu_item_icon button{
 .line1__menu_item_icons{
   font-family: 'Open Sans';
   font-size: 14px;
-}
-
-img{
-  padding-right:15px;
 }

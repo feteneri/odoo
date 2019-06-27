@@ -1,110 +1,53 @@
 .container{
   margin-left: auto;  
   margin-right:auto;
-  height:200px;
+  height:360px;
   width: 1000px;
   display: flex;
+  flex-direction:column;
+  flex-wrap:wrap;
   border: solid 2px red;
-}
-.line1{
-  margin-left: auto;  
-  margin-right:auto;
-  height:200px;
-  width: 900px;  
-  display:flex;
-  border: solid 2px blue;
-  margin-left:0px;
-}
-.line1__menu{
-  display:flex;
-  flex-direction: column;
-  height:200px;
-  width: 900px;
   
 }
 
-.line1__menu_item_icons{
+p{
   font-family: 'Open Sans';
-  font-size: 14px;
-  height:48px;  
-  width: 900px; 
-  display:flex; 
-  border: dashed 1px#4c5a75;
-  border-radius:10px;
-  display:flex;
-  justify-content:space-between;
-  align-items: center;
+  font-size:18px;
+  color: white;
 }
 
-.line1__menu_item_icon button{
+button{
+  background-color: rgb(171, 228, 15);
+  height:60px;
+  width: 275px;
+  margin-left:50px;
+}
+
+.line2__h{
+  height:60px;
+  width: 400px;
   font-family: 'Open Sans';
-  font-size: 14px;
-  color: #4c5a75;
-  min-height: 35px;
-  min-width:70px;
-  border-radius:10px;
-  border-color: rgba(0,0,0,0);
-  background-color: rgba(0,0,0,0);
-  display:flex;
-  justify-content:space-between;
+  font-size: 30px;
+  font-weight:350;
+  margin-left:50px;
+  margin-bottom:35px;
+  margin-top:50px;
+  border:solid 2px red;
 }
 
-line1__menu_item_icon button{
-
-}
-
-
-.line1__menu_leftrow{
-  height:180px;  
-  width: 50px; 
-}
-
-.line1__menu_leftrow button{
-  height:60px;  
-  width: 50px;
-  margin-top:140px; 
-}
-
-.line1__menu_rightrow{
-  height:180px;  
-  width: 50px; 
-}
-
-.line1__menu_rightrow button{
-  height:60px;  
-  width: 50px;
-  margin-top:140px; 
-}
-
-.line1__menu_item_h{
+.line2__p{
+  height:65px;
+  width: 320px;
   font-family: 'Open Sans';
-  font-size: 42px;
-  font-weight: 600;
-  color:#ee7501;
-  height:30px;
-  line-height:30px;  
-  width: 900px;
-  padding-top:0px;
-  padding-bottom:0px;
-  margin-top:25px;
-  margin-bottom:20px;
+  font-size: 18px;
+  font-weight:350;
+  margin-left:50px;
+  margin-bottom:50px;
+  border:solid 2px red;
 }
 
-.line1__menu_item_p{
-  font-family: 'Open Sans';
-  font-size: 25px;
-  color: #4c5a75;
-  height:20px;
-  line-height: 20px;  
-  width: 900px;
-  margin-bottom:48px;
-}
-
-.line1__menu_item_icons{
-  font-family: 'Open Sans';
-  font-size: 14px;
-}
-
-img{
-  padding-right:15px;
+.line2__img{
+  margin-top:50px;
+  margin-left:-20px;
+  border:solid 2px red;
 }

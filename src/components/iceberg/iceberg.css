@@ -1,0 +1,118 @@
+.iceberg__container{
+  margin-left: auto;
+  margin-right:auto;
+  height:985px;
+  width: 1000px;
+  background-image: url(./img/iceberg.png);
+  display:flex;
+  flex-direction:column;
+}
+
+.iceberg__container_1{
+  height:150px;
+  width: 900px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.iceberg__container_2{
+  height:180px;
+  width: 900px;
+  margin-left: auto;
+  margin-right:auto;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+}
+
+.iceberg__container_3{
+  height:450px;
+  width: 900px;
+  margin-left: auto;
+  margin-right:auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top:55px;
+}
+
+.iceberg__container_1-h{
+  color:#df9310;
+  font-size:36px;
+  width: 600px;
+  height: 35px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:50px;
+  margin-bottom:30px;
+  text-align:center;
+}
+
+.iceberg__container_1-p{
+  font-size:18px;
+  width: 600px;
+  height: 25px;
+  margin-left: auto;
+  margin-right:auto;
+  text-align:center;
+}
+
+.iceberg__container_2-top1{
+  width: 350px;
+  height: 170px;
+  font-size:16px;
+  font-family:'Open Sans';
+  text-transform: uppercase;
+  color:#344c6c;
+  margin-bottom:0px;
+  padding-bottom:0px;
+  padding-top:150px;
+  padding-left:140px;
+}
+
+.iceberg__container_2-top2{
+  width: 450px;
+  height: 20px;
+  font-size:16px;
+  font-family:'Open Sans';
+  text-transform: uppercase;
+  color:#344c6c;
+  margin-left:-47px;
+  padding-top:63px;
+}
+
+.iceberg__container_2-top3{
+  width: 450px;
+  height: 20px;
+  font-size:16px;
+  font-family:'Open Sans';
+  text-transform: uppercase;
+  color:#344c6c;
+  margin-left:52px;
+  margin-top:77px;
+}
+
+.iceberg__container_3-left{
+  width: 280px;
+  height: 20px;
+  margin-left:0px;
+  padding-left:0px;
+  margin-bottom:36px;
+  margin-right:335px;
+  font-size:14px;
+  font-family:'Open Sans';
+  text-transform: uppercase;
+  color:#344c6c;
+}
+
+.iceberg__container_3-right{
+  width: 280px;
+  height: 20px;
+  margin-right:20px;
+  padding-left:0px;
+  margin-bottom:36px;
+  font-size:14px;
+  font-family:'Open Sans';
+  text-transform: uppercase;
+  color:#344c6c;
+}

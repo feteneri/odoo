@@ -1,8 +1,52 @@
-.container{
+.brands__container{
   margin-left: auto;  
   margin-right:auto;
   height:245px;
   width: 1900px;
-  border: solid 2px red;
-  background-image: url(./img/background.png)
+  background-image: url(./img/background.png);
+  background-color: #4c5a75;
+  box-sizing: border-box;
+  padding-top:75px;
+}
+
+.brands__container__people{
+  width: 275px;
+  height:100px;
+  margin-left:400px;
+  border: solid 2px white;
+  display:flex;
+  flex-wrap:wrap;
+  padding-top:15px;
+  padding-right:5px;
+  border-radius:5px;
+}
+
+.brands__container__people-img{
+margin-left:20px;
+margin-right:15px;
+  }
+
+.brands__container__people-h{
+font-size:36px;
+color:white;
+}
+
+.brands__container__people-p{
+  font-size:14px;
+  color:white;
+  margin-left:20px;
+}
+
+.brands__container__right{
+  width: 550px;
+  height:150px;
+  margin-left:850px;
+  margin-top:-120px;
+}
+
+.brands__container-right-h{
+  font-size:18px;
+  color:white;
+  margin-bottom:20px;
+  letter-spacing:5px;
 }

@@ -23,7 +23,6 @@
 }
 
 .line1__menu_item_icons{
-  font-family: 'Open Sans';
   font-size: 14px;
   height:48px;  
   width: 900px; 
@@ -36,7 +35,6 @@
 }
 
 .line1__menu_item_icon button{
-  font-family: 'Open Sans';
   font-size: 14px;
   color: #4c5a75;
   min-height: 35px;
@@ -71,7 +69,6 @@
 }
 
 .line1__menu_item_h{
-  font-family: 'Open Sans';
   font-size: 42px;
   font-weight: 600;
   color:#ee7501;
@@ -85,7 +82,6 @@
 }
 
 .line1__menu_item_p{
-  font-family: 'Open Sans';
   font-size: 25px;
   color: #4c5a75;
   height:20px;
@@ -95,6 +91,5 @@
 }
 
 .line1__menu_item_icons{
-  font-family: 'Open Sans';
   font-size: 14px;
 }

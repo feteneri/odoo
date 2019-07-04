@@ -18,7 +18,7 @@ header{
   width:354px;
   border: solid 2px red;
   display:flex;
-  font-family: 'Open Sans';
+  
   font-size: 14px;
   color: #4c5a75;
   display:flex;
@@ -49,13 +49,13 @@ header{
 
 }
 .header__phones_big{
-  font-family: 'Open Sans';
+  
   font-size: 24px;
   font-weight: 600;
 }
 
 .header__phones_button{
-  font-family: 'Open Sans';
+  
   font-size: 14px;
   color: #ee7501;
 }

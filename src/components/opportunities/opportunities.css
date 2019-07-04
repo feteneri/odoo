@@ -1,0 +1,50 @@
+.opportunities__menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.opportunities__menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.opportunities__menu-item-img {
+  border: 2px solid red;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  pointer-events: none;
+}
+.opportunities__menu-item-text {
+  pointer-events: none;
+}
+
+.opportunities__menu-item_active .opportunities__menu-item-img {
+  border: 10px dotted blue;
+}
+
+.opportunities__menu-item_active .opportunities__menu-item-text {
+  color: red;
+  font-size: 24px;
+}
+
+.opportunities__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.opportunities__body_active {
+  display: flex;
+}
